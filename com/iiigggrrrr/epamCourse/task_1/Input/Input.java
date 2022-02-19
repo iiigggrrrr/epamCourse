@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.function.Predicate;
 
 abstract public class Input {
-    protected static Output dialog;
+    protected Output dialog;
 
     protected Input(Output output) {
         Input.dialog = output;
